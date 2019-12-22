@@ -1,0 +1,147 @@
+body{
+	margin: 0px;
+	background-color:#3C2843;
+
+
+}
+#container{
+	
+	height: 100%;
+	width:100%;
+}
+
+	#projectorlogo img{
+		height: 50px;
+		width: 300px;
+		margin-top: 25px;
+	}
+	#sidelink{
+		float: right;
+		margin-top: 25px;
+
+	}
+	#sidelink a{
+		text-align: right;
+		color: #D8B65C;
+		margin-right: 20px;
+		margin-right: 20px;
+		text-decoration-line: none;
+	}
+	#form{
+		color: white;
+		width: 350px;
+		text-align: left;
+		margin: 0  auto;
+		display: block;
+		font-style: italic;
+		}
+
+		h1{
+			text-align:center;
+			color: white;
+			
+		}
+		
+		.textfield{
+			width: 350px;
+			height:35px;
+			border-width: 1px;
+			background-color:#3C2843;
+			color: white;
+			margin-top: 10px;
+    		margin-bottom: 10px; 
+
+		}
+		.textarea{
+			background-color: #3C2843;
+			width: 350px;
+			height:100px;
+			color: white;
+			margin-top: 10px;
+            margin-bottom: 10px;
+
+		}
+		.option{
+			height:35px;
+			width: 170px;			
+			background-color:#3C2843;
+			color: white; 
+			margin-top: 10px;
+    		margin-bottom: 10px;
+		}
+		#submit{
+			background-color: #E0B648;
+			height: 30px;
+			width:	100px;
+			border: 0px;
+			color: white;
+			margin: 20px auto;
+			display: block;
+
+
+		}
+		#lang{
+			float: left;
+			display: inline;
+			width: 170px;
+			
+		}
+		#rating{
+
+			float: left;
+			display: inline;
+			width: 170px;
+			margin-left: 10px;
+		}
+
+		.label{
+			margin-top: 5px;
+			margin-bottom: 5px;
+		}
+		
+
+#footleft{
+		float: left;
+		height: 50px;
+		width: 50%;
+		background: black;
+		}
+#footleft img{
+	width:40px ;
+	height:40px;
+	padding: 5px 0px 5px 0px;
+	
+}
+
+#footright{
+	float: right;
+	height: 50px;
+	width: 50%;
+	background: black;
+	
+}
+
+#footright img{
+		width:240px ;
+		height:40px;
+		padding: 5px 0px 5px 0px;
+		
+	}
+footer{
+	background-color: black;
+	margin: 0px 0px 0px 0px;
+
+	}	
+
+
+
+
+
+
+
+
+
+
+
+
+

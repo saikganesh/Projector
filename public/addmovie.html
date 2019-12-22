@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add a New Movie</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/addmovie.css">
+</head>
+<body >
+	<div id="container">
+		
+
+			<span id="projectorlogo">
+					<img src="images/projector-logo.png">
+				</span>
+				<span id="sidelink">
+					<a href="/index.html">HOME</a>
+					<a href="/addmovie.html">ADD MOVIE</a>
+				</span>
+
+		
+		
+		<div id="form">
+				
+				<form id="Add_Movie_Form" onsubmit="event.preventDefault(); addMovie();">
+				<h1> Add a New Movie</h1>	
+				<label class="label" for="name">Movie name</label>
+				<br/>
+				<input class="textfield" type="text" name="name" required/>
+				<br/>
+				<label class="label" for="releaseYear">Release year </label>
+				<br/>
+				<input class="textfield" type="text" name="releaseYear" required/>
+				<br/>
+				
+				<div id="lang">
+				<label class="label" for="lang">Language</label>
+				<br>
+				<select class="option" name="language">
+						<option>ENGLISH</option>
+						<option>TAMIL</option>
+						<option>HINDI</option>
+					</select>
+				</div>
+					
+				<div id="rating">
+				<label class="label" for="rating">Rating</label>
+				<br>
+					<select class="option" name="rating">
+						<option>5</option>
+						<option>4.5</option>
+						<option>4</option>
+						<option>3.5</option>
+						<option>3</option>
+						<option>2.5</option>
+						<option>2</option>
+						<option>1.5</option>
+						<option>1</option>
+					</select>
+				</div>
+				<br/>
+				<label class="label" for="turl">Thumbnail URL</label>
+				<br/>
+				<input class="textfield" type="text" name="turl" required/>
+				<br/>
+				<label class="label" for="plot">Plot</label>
+				<br/>
+				<textarea class="textarea" required/></textarea>
+				<br/>
+				<label class="label"  for="posterUrl">Poster URL</label>
+				<br/>
+				<input class="textfield" type="text" name="posterUrl" required/>
+				<br/>
+				<label class="label" for="cast">Cast</label>
+				<br/>
+				<textarea class="textarea" required/></textarea>
+				<br/>
+				<input id="submit"  type="submit" value="SAVE" >
+				
+			
+
+			
+		</form>
+		</div>
+
+		<footer>
+		<div id="footleft">
+			<img src="images\facebook.png" >
+			<img src="images\instagram.png" >
+			<img src="images\twitter.png" >
+		</div>
+
+
+		<div id= "footright">
+			<img align="right" src="images\projector-logo.png">
+	
+		</div>
+	</footer>
+
+
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js">
+		
+	</script>
+
+	<script src="js/addmovie.js"></script>
+</body>
+</html>

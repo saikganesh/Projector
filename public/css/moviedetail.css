@@ -1,0 +1,138 @@
+body{
+	
+	background-color:#3C2843;
+
+}
+#container{
+	
+	height: 100%;
+	width:100%;
+}
+
+	#projectorlogo img{
+		height: 50px;
+		width: 300px;
+		margin : 25px 0px 25px 30px;
+	}
+	#sidelink{
+		float: right;
+		margin : 25px 0px 25px 30px;
+
+	}
+	#sidelink a{
+		text-align: right;
+		color: #D8B65C;
+		text-decoration-line: none;
+		margin-right: 20px;
+	}
+
+ .mname{
+ 	font-size: 60px;
+ 	color: white;
+ 	margin : 25px 0px 25px 30px;
+ 	text-transform: uppercase;
+ }
+
+.rating{
+	margin : 25px 0px 25px 30px;
+
+}
+.rating img {
+ 	height: 12px;
+ 	width: 12px;
+ 	
+ }
+ .imgdiv{
+ 	display: grid;
+ 	align-content: center;
+ 	justify-content: center;
+ }
+
+ .movieimg{
+ 	margin : 25px 0px 25px 0px;
+ 	width: 400px;
+ 	height: 500px;
+ 	
+ }
+.relyear{
+	font-size: 20px;
+	float: left;
+	color: white;
+	display: inline;
+	margin : 25px 0px 25px 30px;
+}
+
+.language{
+	font-size: 20px;
+	display: inline;
+	float: left;
+	color: white;
+	margin:25px 0px 25px 30px;
+}
+
+.plot{
+	width: 70%;
+	margin: 25px 0px 25px 30px;
+	clear: both;
+	
+  float: left;
+}
+
+.plot h1{
+	color:#E0B648 ;
+
+}
+.plot p{
+	color: white;
+}	
+
+.cast h1{
+	color: #E0B648;
+}
+
+.cast p{
+	color: white;
+}
+
+
+.cast{
+	width: 20%;
+	color: white;
+	float: right;
+	margin : 25px 0px 25px 30px;
+
+}
+
+
+#footleft{
+		float: left;
+		height: 50px;
+		width: 50%;
+		background: black;
+		}
+#footleft img{
+	width:40px ;
+	height:40px;
+	padding: 5px 0px 5px 0px;
+}
+
+#footright{
+	float: right;
+	height: 50px;
+	width: 50%;
+	background: black;
+
+}
+
+#footright img{
+		width:240px ;
+		height:40px;
+		padding: 5px 0px 5px 0px;
+		
+	}
+footer{
+	clear: both;
+	background-color: black;
+	margin: 0px 0px 0px 0px;
+
+	}	
